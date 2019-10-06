@@ -23,3 +23,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+func reverse(text: String) -> String {
+    return String(text.reversed())
+}
